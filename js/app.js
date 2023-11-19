@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
                 data.forEach((quote, index) => {
 
-                    const carouselItem = document.createElement("div");
+                    const carouselItem = document.createElement("article");
                     carouselItem.classList.add("carousel-item");
                     
                     if (index === 0) {
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 new bootstrap.Carousel(document.getElementById("carousel"));
             } else {
-                console.error("Netinkamai pateikti duomenys.");
+                console.error("Klaida gaudant duomenis.", error);
             }
         })
 });

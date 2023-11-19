@@ -1,0 +1,33 @@
+body {
+    background: rgb(249,203,113);
+    background: linear-gradient(138deg, rgba(249,203,113,1) 0%, rgba(254,169,130,1) 100%);
+
+    .carousel-control-next, .carousel-control-prev {
+        filter: invert(100%);
+    }
+
+    .carousel-indicators{
+    filter: invert(100%);
+    padding:0 50px;
+}
+
+.carousel-item {
+    padding:0px 50px;
+}
+
+.name {
+    font-size: 15px;
+    color:grey;
+}
+
+.lead {
+    font-size:25px;
+}
+
+.quote-image {
+    width: 50px;
+    margin-right: 10px;
+}
+
+}
+

@@ -1,0 +1,20 @@
+body {
+  background: #f9cb71;
+  background: linear-gradient(138deg, #f9cb71 0%, #fea982 100%); }
+  body .carousel-control-next, body .carousel-control-prev {
+    filter: invert(100%); }
+  body .carousel-indicators {
+    filter: invert(100%);
+    padding: 0 50px; }
+  body .carousel-item {
+    padding: 0px 50px; }
+  body .name {
+    font-size: 15px;
+    color: grey; }
+  body .lead {
+    font-size: 25px; }
+  body .quote-image {
+    width: 50px;
+    margin-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */
